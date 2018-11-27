@@ -26,7 +26,7 @@ end
 end
 
 def find_a(array)
-  array.find {|a| a.start_with?("a")}
+  array.detect {|a| a.start_with?("a")}
 end
 
 def sum_array(array)
